@@ -1,0 +1,280 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e42]:
+    - generic [ref=e43]:
+      - generic [ref=e44]:
+        - img [ref=e46]
+        - img [ref=e49]
+        - img [ref=e53]
+      - heading "Mobile Dev CRM" [level=1] [ref=e55]
+      - paragraph [ref=e56]: Система управления разработкой
+      - generic [ref=e57]:
+        - generic [ref=e58]:
+          - img [ref=e59]
+          - generic [ref=e61]: AI Powered
+        - generic [ref=e62]:
+          - img [ref=e63]
+          - generic [ref=e68]: Modern UI
+        - generic [ref=e69]:
+          - img [ref=e70]
+          - generic [ref=e73]: Cloud Ready
+    - generic [ref=e75]:
+      - generic [ref=e76]:
+        - heading "Создать аккаунт" [level=2] [ref=e77]
+        - paragraph [ref=e78]: Присоединяйтесь к нашей платформе
+      - generic [ref=e79]:
+        - generic [ref=e80]:
+          - generic [ref=e81]:
+            - generic [ref=e82]: Полное имя
+            - generic [ref=e83]:
+              - img [ref=e84]
+              - textbox "Иван Разработчик" [ref=e87]
+          - generic [ref=e88]:
+            - generic [ref=e89]: Email адрес
+            - generic [ref=e90]:
+              - img [ref=e91]
+              - textbox "developer@example.com" [ref=e94]
+          - generic [ref=e95]:
+            - generic [ref=e96]: Пароль
+            - generic [ref=e97]:
+              - img [ref=e98]
+              - textbox "••••••••" [ref=e101]
+              - button "Показать пароль" [ref=e102] [cursor=pointer]:
+                - img [ref=e103] [cursor=pointer]
+          - generic [ref=e106]:
+            - generic [ref=e107]: Подтвердите пароль
+            - generic [ref=e108]:
+              - img [ref=e109]
+              - textbox "••••••••" [ref=e112]
+        - button "Создать аккаунт" [ref=e113] [cursor=pointer]:
+          - img [ref=e114] [cursor=pointer]
+          - text: Создать аккаунт
+          - img [ref=e117] [cursor=pointer]
+      - button "Уже есть аккаунт? Войти" [ref=e120] [cursor=pointer]
+    - generic [ref=e121]:
+      - generic [ref=e122]:
+        - img [ref=e124]
+        - heading "AI Powered" [level=3] [ref=e127]
+        - paragraph [ref=e128]: Умная аналитика и рекомендации
+      - generic [ref=e129]:
+        - img [ref=e131]
+        - heading "Developer First" [level=3] [ref=e134]
+        - paragraph [ref=e135]: Инструменты для разработчиков
+      - generic [ref=e136]:
+        - img [ref=e138]
+        - heading "Cloud Ready" [level=3] [ref=e142]
+        - paragraph [ref=e143]: Готово к облачному развертыванию
+  - iframe [ref=e144]:
+    - generic [ref=f1e2]:
+      - generic [ref=f1e3]: "Compiled with problems:"
+      - button "Dismiss" [ref=f1e4] [cursor=pointer]: ×
+      - generic [ref=f1e5]:
+        - generic [ref=f1e6]:
+          - generic [ref=f1e7]: ERROR in src/mocks/browser.ts:1:10
+          - generic [ref=f1e8]:
+            - generic [ref=f1e9]: "TS2305:"
+            - text: Module '"msw"' has no exported member 'setupWorker'.
+            - generic [ref=f1e10]:
+              - generic [ref=f1e12]: ">"
+              - generic [ref=f1e13]: 1 |
+              - generic [ref=f1e14]: import
+              - text: "{ setupWorker }"
+              - generic [ref=f1e15]: from
+              - generic [ref=f1e16]: "'msw'"
+              - generic [ref=f1e17]: ;
+              - generic [ref=f1e18]: "|"
+              - generic [ref=f1e20]: ^
+              - generic [ref=f1e22]: ^
+              - generic [ref=f1e24]: ^
+              - generic [ref=f1e26]: ^
+              - generic [ref=f1e28]: ^
+              - generic [ref=f1e30]: ^
+              - generic [ref=f1e32]: ^
+              - generic [ref=f1e34]: ^
+              - generic [ref=f1e36]: ^
+              - generic [ref=f1e38]: ^
+              - generic [ref=f1e40]: ^
+              - generic [ref=f1e41]: 2 |
+              - generic [ref=f1e42]: import
+              - text: "{ handlers }"
+              - generic [ref=f1e43]: from
+              - generic [ref=f1e44]: "'./handlers'"
+              - generic [ref=f1e45]: ;
+              - generic [ref=f1e46]: 3 |
+              - generic [ref=f1e47]: 4 |
+              - generic [ref=f1e48]: export
+              - generic [ref=f1e49]: const
+              - text: worker
+              - generic [ref=f1e50]: =
+              - text: setupWorker(
+              - generic [ref=f1e51]: ...
+              - text: handlers)
+              - generic [ref=f1e52]: ;
+        - generic [ref=f1e53]:
+          - generic [ref=f1e54]: ERROR in src/mocks/handlers.ts:1:10
+          - generic [ref=f1e55]:
+            - generic [ref=f1e56]: "TS2305:"
+            - text: Module '"msw"' has no exported member 'rest'.
+            - generic [ref=f1e57]:
+              - generic [ref=f1e59]: ">"
+              - generic [ref=f1e60]: 1 |
+              - generic [ref=f1e61]: import
+              - text: "{ rest"
+              - generic [ref=f1e62]: ","
+              - generic [ref=f1e63]: RestRequest
+              - generic [ref=f1e64]: ","
+              - generic [ref=f1e65]: RestContext
+              - generic [ref=f1e66]: ","
+              - generic [ref=f1e67]: ResponseComposition
+              - text: "}"
+              - generic [ref=f1e68]: from
+              - generic [ref=f1e69]: "'msw'"
+              - generic [ref=f1e70]: ;
+              - generic [ref=f1e71]: "|"
+              - generic [ref=f1e73]: ^
+              - generic [ref=f1e75]: ^
+              - generic [ref=f1e77]: ^
+              - generic [ref=f1e79]: ^
+              - generic [ref=f1e80]: 2 |
+              - generic [ref=f1e81]: 3 |
+              - generic [ref=f1e82]: export
+              - generic [ref=f1e83]: const
+              - text: handlers
+              - generic [ref=f1e84]: =
+              - text: "["
+              - generic [ref=f1e85]: 4 |
+              - generic [ref=f1e86]: "// пример: мок авторизации"
+        - generic [ref=f1e87]:
+          - generic [ref=f1e88]: ERROR in src/mocks/handlers.ts:1:16
+          - generic [ref=f1e89]:
+            - generic [ref=f1e90]: "TS2305:"
+            - text: Module '"msw"' has no exported member 'RestRequest'.
+            - generic [ref=f1e91]:
+              - generic [ref=f1e93]: ">"
+              - generic [ref=f1e94]: 1 |
+              - generic [ref=f1e95]: import
+              - text: "{ rest"
+              - generic [ref=f1e96]: ","
+              - generic [ref=f1e97]: RestRequest
+              - generic [ref=f1e98]: ","
+              - generic [ref=f1e99]: RestContext
+              - generic [ref=f1e100]: ","
+              - generic [ref=f1e101]: ResponseComposition
+              - text: "}"
+              - generic [ref=f1e102]: from
+              - generic [ref=f1e103]: "'msw'"
+              - generic [ref=f1e104]: ;
+              - generic [ref=f1e105]: "|"
+              - generic [ref=f1e107]: ^
+              - generic [ref=f1e109]: ^
+              - generic [ref=f1e111]: ^
+              - generic [ref=f1e113]: ^
+              - generic [ref=f1e115]: ^
+              - generic [ref=f1e117]: ^
+              - generic [ref=f1e119]: ^
+              - generic [ref=f1e121]: ^
+              - generic [ref=f1e123]: ^
+              - generic [ref=f1e125]: ^
+              - generic [ref=f1e127]: ^
+              - generic [ref=f1e128]: 2 |
+              - generic [ref=f1e129]: 3 |
+              - generic [ref=f1e130]: export
+              - generic [ref=f1e131]: const
+              - text: handlers
+              - generic [ref=f1e132]: =
+              - text: "["
+              - generic [ref=f1e133]: 4 |
+              - generic [ref=f1e134]: "// пример: мок авторизации"
+        - generic [ref=f1e135]:
+          - generic [ref=f1e136]: ERROR in src/mocks/handlers.ts:1:29
+          - generic [ref=f1e137]:
+            - generic [ref=f1e138]: "TS2305:"
+            - text: Module '"msw"' has no exported member 'RestContext'.
+            - generic [ref=f1e139]:
+              - generic [ref=f1e141]: ">"
+              - generic [ref=f1e142]: 1 |
+              - generic [ref=f1e143]: import
+              - text: "{ rest"
+              - generic [ref=f1e144]: ","
+              - generic [ref=f1e145]: RestRequest
+              - generic [ref=f1e146]: ","
+              - generic [ref=f1e147]: RestContext
+              - generic [ref=f1e148]: ","
+              - generic [ref=f1e149]: ResponseComposition
+              - text: "}"
+              - generic [ref=f1e150]: from
+              - generic [ref=f1e151]: "'msw'"
+              - generic [ref=f1e152]: ;
+              - generic [ref=f1e153]: "|"
+              - generic [ref=f1e155]: ^
+              - generic [ref=f1e157]: ^
+              - generic [ref=f1e159]: ^
+              - generic [ref=f1e161]: ^
+              - generic [ref=f1e163]: ^
+              - generic [ref=f1e165]: ^
+              - generic [ref=f1e167]: ^
+              - generic [ref=f1e169]: ^
+              - generic [ref=f1e171]: ^
+              - generic [ref=f1e173]: ^
+              - generic [ref=f1e175]: ^
+              - generic [ref=f1e176]: 2 |
+              - generic [ref=f1e177]: 3 |
+              - generic [ref=f1e178]: export
+              - generic [ref=f1e179]: const
+              - text: handlers
+              - generic [ref=f1e180]: =
+              - text: "["
+              - generic [ref=f1e181]: 4 |
+              - generic [ref=f1e182]: "// пример: мок авторизации"
+        - generic [ref=f1e183]:
+          - generic [ref=f1e184]: ERROR in src/mocks/handlers.ts:1:42
+          - generic [ref=f1e185]:
+            - generic [ref=f1e186]: "TS2305:"
+            - text: Module '"msw"' has no exported member 'ResponseComposition'.
+            - generic [ref=f1e187]:
+              - generic [ref=f1e189]: ">"
+              - generic [ref=f1e190]: 1 |
+              - generic [ref=f1e191]: import
+              - text: "{ rest"
+              - generic [ref=f1e192]: ","
+              - generic [ref=f1e193]: RestRequest
+              - generic [ref=f1e194]: ","
+              - generic [ref=f1e195]: RestContext
+              - generic [ref=f1e196]: ","
+              - generic [ref=f1e197]: ResponseComposition
+              - text: "}"
+              - generic [ref=f1e198]: from
+              - generic [ref=f1e199]: "'msw'"
+              - generic [ref=f1e200]: ;
+              - generic [ref=f1e201]: "|"
+              - generic [ref=f1e203]: ^
+              - generic [ref=f1e205]: ^
+              - generic [ref=f1e207]: ^
+              - generic [ref=f1e209]: ^
+              - generic [ref=f1e211]: ^
+              - generic [ref=f1e213]: ^
+              - generic [ref=f1e215]: ^
+              - generic [ref=f1e217]: ^
+              - generic [ref=f1e219]: ^
+              - generic [ref=f1e221]: ^
+              - generic [ref=f1e223]: ^
+              - generic [ref=f1e225]: ^
+              - generic [ref=f1e227]: ^
+              - generic [ref=f1e229]: ^
+              - generic [ref=f1e231]: ^
+              - generic [ref=f1e233]: ^
+              - generic [ref=f1e235]: ^
+              - generic [ref=f1e237]: ^
+              - generic [ref=f1e239]: ^
+              - generic [ref=f1e240]: 2 |
+              - generic [ref=f1e241]: 3 |
+              - generic [ref=f1e242]: export
+              - generic [ref=f1e243]: const
+              - text: handlers
+              - generic [ref=f1e244]: =
+              - text: "["
+              - generic [ref=f1e245]: 4 |
+              - generic [ref=f1e246]: "// пример: мок авторизации"
+```

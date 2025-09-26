@@ -1,0 +1,72 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Перейти к основному содержимому" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - heading "CRM Accessibility Dashboard" [level=1] [ref=e4]
+    - navigation "Основная навигация" [ref=e5]:
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "Дашборд" [ref=e8] [cursor=pointer]:
+            - /url: "#dashboard"
+        - listitem [ref=e9]:
+          - link "Проекты" [ref=e10] [cursor=pointer]:
+            - /url: "#projects"
+        - listitem [ref=e11]:
+          - link "Задачи" [ref=e12] [cursor=pointer]:
+            - /url: "#tasks"
+        - listitem [ref=e13]:
+          - link "Настройки" [ref=e14] [cursor=pointer]:
+            - /url: "#settings"
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - heading "Метрики доступности" [level=2] [ref=e17]
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - paragraph [ref=e20]: "98"
+          - paragraph [ref=e21]: A11y Score
+        - generic [ref=e22]:
+          - paragraph [ref=e23]: "0"
+          - paragraph [ref=e24]: Ошибки
+        - generic [ref=e25]:
+          - paragraph [ref=e26]: "2"
+          - paragraph [ref=e27]: Предупреждения
+        - generic [ref=e28]:
+          - paragraph [ref=e29]: 100%
+          - paragraph [ref=e30]: WCAG AA
+    - generic [ref=e31]:
+      - heading "Форма с доступностью" [level=2] [ref=e32]
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e35]: Имя пользователя *
+          - textbox "Имя пользователя *" [ref=e36]
+          - generic [ref=e37]: Введите ваше полное имя
+        - generic [ref=e38]:
+          - generic [ref=e39]: Email *
+          - textbox "Email *" [ref=e40]
+          - generic [ref=e41]: Введите действующий email адрес
+        - generic [ref=e42]:
+          - generic [ref=e43]: Роль
+          - combobox "Роль" [ref=e44]:
+            - option "Выберите роль" [selected]
+            - option "Администратор"
+            - option "Пользователь"
+            - option "Менеджер"
+        - generic [ref=e45]:
+          - generic [ref=e46]: Биография
+          - textbox "Биография" [ref=e47]
+          - generic [ref=e48]: Расскажите о себе (необязательно)
+        - button "Сохранить" [ref=e49] [cursor=pointer]
+        - button "Отмена" [ref=e50] [cursor=pointer]
+    - generic [ref=e51]:
+      - heading "Интерактивные элементы" [level=2] [ref=e52]
+      - generic [ref=e53]:
+        - button "Добавить новый проект" [ref=e54] [cursor=pointer]: + Проект
+        - button "Создать задачу" [ref=e55] [cursor=pointer]: + Задача
+        - button "Показать уведомления" [ref=e56] [cursor=pointer]:
+          - text: 🔔 Уведомления
+          - generic [ref=e57] [cursor=pointer]: "3"
+        - button "Переключить тему" [ref=e58] [cursor=pointer]: 🌙 Тема
+```

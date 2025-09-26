@@ -1,0 +1,75 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - heading "CRM System - Управление проектами и задачами" [level=1] [ref=e3]
+    - navigation [ref=e4]:
+      - list [ref=e5]:
+        - listitem [ref=e6]:
+          - link "Дашборд" [ref=e7] [cursor=pointer]:
+            - /url: "#dashboard"
+        - listitem [ref=e8]:
+          - link "Проекты" [ref=e9] [cursor=pointer]:
+            - /url: "#projects"
+        - listitem [ref=e10]:
+          - link "Задачи" [ref=e11] [cursor=pointer]:
+            - /url: "#tasks"
+        - listitem [ref=e12]:
+          - link "Команда" [ref=e13] [cursor=pointer]:
+            - /url: "#team"
+        - listitem [ref=e14]:
+          - link "Отчеты" [ref=e15] [cursor=pointer]:
+            - /url: "#reports"
+  - main [ref=e16]:
+    - generic [ref=e17]:
+      - heading "SEO метрики" [level=2] [ref=e18]
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - paragraph [ref=e21]: "95"
+          - paragraph [ref=e22]: SEO Score
+        - generic [ref=e23]:
+          - paragraph [ref=e24]: "100"
+          - paragraph [ref=e25]: Meta Tags
+        - generic [ref=e26]:
+          - paragraph [ref=e27]: "98"
+          - paragraph [ref=e28]: Structured Data
+        - generic [ref=e29]:
+          - paragraph [ref=e30]: "92"
+          - paragraph [ref=e31]: Page Speed
+    - generic [ref=e32]:
+      - heading "О нашей CRM системе" [level=2] [ref=e33]
+      - paragraph [ref=e34]: Современная CRM система для эффективного управления проектами, задачами и командой. Наша платформа поможет вам повысить продуктивность и организовать работу.
+      - heading "Ключевые возможности" [level=3] [ref=e35]
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - heading "Управление проектами" [level=4] [ref=e38]
+          - paragraph [ref=e39]: Создавайте, отслеживайте и управляйте проектами любой сложности. Визуализируйте прогресс с помощью канбан-досок и диаграмм Ганта.
+        - generic [ref=e40]:
+          - heading "Система задач" [level=4] [ref=e41]
+          - paragraph [ref=e42]: Детальное планирование и отслеживание задач. Назначайте ответственных, устанавливайте приоритеты и дедлайны.
+        - generic [ref=e43]:
+          - heading "Командная работа" [level=4] [ref=e44]
+          - paragraph [ref=e45]: Эффективная коммуникация в команде. Обмен сообщениями, файлами и обновлениями в реальном времени.
+        - generic [ref=e46]:
+          - heading "Аналитика и отчеты" [level=4] [ref=e47]
+          - paragraph [ref=e48]: Подробная аналитика производительности. Отчеты по проектам, задачам и эффективности команды.
+    - generic [ref=e49]:
+      - heading "Преимущества нашей системы" [level=2] [ref=e50]
+      - list [ref=e51]:
+        - listitem [ref=e52]:
+          - strong [ref=e53]: Интуитивный интерфейс
+          - text: "- Простое и понятное управление без сложного обучения"
+        - listitem [ref=e54]:
+          - strong [ref=e55]: Мобильная версия
+          - text: "- Полнофункциональное приложение для работы в любом месте"
+        - listitem [ref=e56]:
+          - strong [ref=e57]: Интеграции
+          - text: "- Подключение к популярным сервисам и API"
+        - listitem [ref=e58]:
+          - strong [ref=e59]: Безопасность
+          - text: "- Защита данных на уровне банковских стандартов"
+        - listitem [ref=e60]:
+          - strong [ref=e61]: Масштабируемость
+          - text: "- От стартапов до крупных корпораций"
+```

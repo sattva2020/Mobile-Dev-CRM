@@ -238,6 +238,22 @@ function appReducer(state: AppState, action: AppAction): AppState {
         notifications: action.payload,
       };
 
+    case 'MARK_NOTIFICATION_READ':
+      return {
+        ...state,
+        notifications: state.notifications.map(notification =>
+          notification.id === action.payload
+            ? { ...notification, read: true }
+            : notification
+        ),
+      };
+
+    case 'CLEAR_NOTIFICATIONS':
+      return {
+        ...state,
+        notifications: [],
+      };
+
     default:
       return state;
   }
@@ -248,6 +264,15 @@ const AppContext = createContext<{
   state: AppState;
   dispatch: React.Dispatch<AppAction>;
 } | null>(null);
+
+// Хук для использования контекста
+export const useApp = () => {
+  const context = useContext(AppContext);
+  if (!context) {
+    throw new Error('useApp must be used within an AppProvider');
+  }
+  return context;
+};
 
 // Провайдер
 export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => {

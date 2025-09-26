@@ -1,0 +1,57 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation "Основная навигация" [ref=e3]:
+      - link "Дашборд" [ref=e4] [cursor=pointer]:
+        - /url: "#"
+      - link "Проекты" [ref=e5] [cursor=pointer]:
+        - /url: "#"
+      - link "Задачи" [ref=e6] [cursor=pointer]:
+        - /url: "#"
+      - link "Настройки" [ref=e7] [cursor=pointer]:
+        - /url: "#"
+  - main [ref=e8]:
+    - heading "Дашборд CRM" [level=1] [ref=e9]
+    - generic [ref=e10]:
+      - heading "Статистика" [level=2] [ref=e11]
+      - region "Статистика проектов" [ref=e12]:
+        - paragraph [ref=e13]:
+          - text: "Всего проектов:"
+          - generic "5 проектов" [ref=e14]: "5"
+        - paragraph [ref=e15]:
+          - text: "Активных задач:"
+          - generic "12 задач" [ref=e16]: "12"
+        - paragraph [ref=e17]:
+          - text: "Завершено:"
+          - generic "8 задач" [ref=e18]: "8"
+    - generic [ref=e19]:
+      - heading "Последние задачи" [level=2] [ref=e20]
+      - table "Список последних задач" [ref=e21]:
+        - rowgroup [ref=e22]:
+          - row "Название Статус Приоритет Действия" [ref=e23]:
+            - columnheader "Название" [ref=e24]
+            - columnheader "Статус" [ref=e25]
+            - columnheader "Приоритет" [ref=e26]
+            - columnheader "Действия" [ref=e27]
+        - rowgroup [ref=e28]:
+          - row "Разработка API В работе Высокий Редактировать задачу 'Разработка API'" [ref=e29]:
+            - cell "Разработка API" [ref=e30]
+            - cell "В работе" [ref=e31]
+            - cell "Высокий" [ref=e32]
+            - cell "Редактировать задачу 'Разработка API'" [ref=e33]:
+              - button "Редактировать задачу 'Разработка API'" [ref=e34] [cursor=pointer]: Редактировать
+          - row "Тестирование Завершено Средний Редактировать задачу 'Тестирование'" [ref=e35]:
+            - cell "Тестирование" [ref=e36]
+            - cell "Завершено" [ref=e37]
+            - cell "Средний" [ref=e38]
+            - cell "Редактировать задачу 'Тестирование'" [ref=e39]:
+              - button "Редактировать задачу 'Тестирование'" [ref=e40] [cursor=pointer]: Редактировать
+    - generic [ref=e41]:
+      - heading "Быстрые действия" [level=2] [ref=e42]
+      - group "Быстрые действия" [ref=e43]:
+        - button "Создать новый проект" [ref=e44] [cursor=pointer]: Создать проект
+        - button "Добавить новую задачу" [ref=e45] [cursor=pointer]: Добавить задачу
+        - button "Просмотреть отчеты" [ref=e46] [cursor=pointer]: Отчеты
+```

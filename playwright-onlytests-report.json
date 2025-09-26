@@ -1,0 +1,3678 @@
+{
+  "timestamp": "2025-09-25T16:12:33.033Z",
+  "testRun": "OnlyTests Playwright Tests",
+  "approach": "OnlyTests Simplified Architecture",
+  "summary": {
+    "totalTests": 160,
+    "passed": 8,
+    "failed": 152,
+    "skipped": 0,
+    "duration": 2042579,
+    "approaches": {
+      "OnlyTests": 160
+    },
+    "categories": {
+      "AI Integration": 48,
+      "General": 112
+    },
+    "pageObjects": {
+      "AISettingsPage": 48,
+      "BasePage": 112
+    },
+    "successRate": 5,
+    "averageDuration": 12766
+  },
+  "results": [
+    {
+      "title": "should create project with AI analysis",
+      "status": "failed",
+      "duration": 14194,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "create project with AI analysis",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be created successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-b1d10-te-project-with-AI-analysis-CRM-Desktop---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-b1d10-te-project-with-AI-analysis-CRM-Desktop---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should create new project",
+      "status": "failed",
+      "duration": 14495,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "create new project",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be created successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-edb53-h-should-create-new-project-CRM-Desktop---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-edb53-h-should-create-new-project-CRM-Desktop---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should create new task",
+      "status": "failed",
+      "duration": 14563,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "create new task",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be created successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Task' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-3103b-oach-should-create-new-task-CRM-Desktop---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-3103b-oach-should-create-new-task-CRM-Desktop---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should delete project",
+      "status": "failed",
+      "duration": 14568,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "delete project",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be deleted successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-3ece7-roach-should-delete-project-CRM-Desktop---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-3ece7-roach-should-delete-project-CRM-Desktop---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should test all AI services",
+      "status": "failed",
+      "duration": 14553,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "all AI services",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Test OpenRouter Connection' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-47147-should-test-all-AI-services-CRM-Desktop---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-47147-should-test-all-AI-services-CRM-Desktop---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle AI service failure gracefully",
+      "status": "failed",
+      "duration": 14441,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "handle AI service failure gracefully",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Test OpenRouter Connection' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-eec6b--service-failure-gracefully-CRM-Desktop---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-eec6b--service-failure-gracefully-CRM-Desktop---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should update task status",
+      "status": "failed",
+      "duration": 14326,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "update task status",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be updated successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Task' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-c3905-h-should-update-task-status-CRM-Desktop---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-c3905-h-should-update-task-status-CRM-Desktop---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should create task with AI recommendations",
+      "status": "failed",
+      "duration": 14403,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "create task with AI recommendations",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be created successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Task' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-0decd-ask-with-AI-recommendations-CRM-Desktop---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-0decd-ask-with-AI-recommendations-CRM-Desktop---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should load pages within acceptable time",
+      "status": "passed",
+      "duration": 1824,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "load pages within acceptable time",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "Test passed successfully",
+      "screenshots": [],
+      "videos": [],
+      "traces": []
+    },
+    {
+      "title": "should test individual AI services",
+      "status": "failed",
+      "duration": 14328,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "individual AI services",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Test OpenRouter Connection' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-35e65-test-individual-AI-services-CRM-Desktop---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-35e65-test-individual-AI-services-CRM-Desktop---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle validation errors",
+      "status": "failed",
+      "duration": 13823,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "handle validation errors",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-1dec1-ld-handle-validation-errors-CRM-Desktop---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-1dec1-ld-handle-validation-errors-CRM-Desktop---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle AI service timeout",
+      "status": "failed",
+      "duration": 14375,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "handle AI service timeout",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Test OpenRouter Connection' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-5b80b-d-handle-AI-service-timeout-CRM-Desktop---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-5b80b-d-handle-AI-service-timeout-CRM-Desktop---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle large datasets efficiently",
+      "status": "failed",
+      "duration": 14451,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "handle large datasets efficiently",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m failed\n\nLocator:  getByText('Project 1')\nExpected: visible\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Project 1')\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Perfo-3e034--large-datasets-efficiently-CRM-Desktop---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Perfo-3e034--large-datasets-efficiently-CRM-Desktop---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle network errors gracefully",
+      "status": "failed",
+      "duration": 14321,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "handle network errors gracefully",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-4ad97-e-network-errors-gracefully-CRM-Desktop---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-4ad97-e-network-errors-gracefully-CRM-Desktop---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle project with multiple tasks",
+      "status": "failed",
+      "duration": 14260,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "handle project with multiple tasks",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-User--83033-project-with-multiple-tasks-CRM-Desktop---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-User--83033-project-with-multiple-tasks-CRM-Desktop---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should complete full project workflow",
+      "status": "failed",
+      "duration": 14478,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "complete full project workflow",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-User--ed24f-plete-full-project-workflow-CRM-Desktop---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-User--ed24f-plete-full-project-workflow-CRM-Desktop---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should support keyboard navigation",
+      "status": "failed",
+      "duration": 12848,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "support keyboard navigation",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m()\u001b[22m failed\n\nLocator:  getByRole('button', { name: 'New Project' })\nExpected: focused\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Acces-605c1-support-keyboard-navigation-CRM-Desktop---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Acces-605c1-support-keyboard-navigation-CRM-Desktop---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should create new project",
+      "status": "failed",
+      "duration": 13772,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "create new project",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be created successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-edb53-h-should-create-new-project-CRM-Mobile---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-edb53-h-should-create-new-project-CRM-Mobile---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should create task with AI recommendations",
+      "status": "failed",
+      "duration": 13847,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "create task with AI recommendations",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be created successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Task' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-0decd-ask-with-AI-recommendations-CRM-Mobile---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-0decd-ask-with-AI-recommendations-CRM-Mobile---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should delete project",
+      "status": "failed",
+      "duration": 13960,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "delete project",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be deleted successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-3ece7-roach-should-delete-project-CRM-Mobile---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-3ece7-roach-should-delete-project-CRM-Mobile---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should create new task",
+      "status": "failed",
+      "duration": 13894,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "create new task",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be created successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Task' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-3103b-oach-should-create-new-task-CRM-Mobile---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-3103b-oach-should-create-new-task-CRM-Mobile---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should create project with AI analysis",
+      "status": "failed",
+      "duration": 13955,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "create project with AI analysis",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be created successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-b1d10-te-project-with-AI-analysis-CRM-Mobile---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-b1d10-te-project-with-AI-analysis-CRM-Mobile---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should work on tablet devices",
+      "status": "failed",
+      "duration": 13795,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "work on tablet devices",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Task' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Mobil-fd744-ould-work-on-tablet-devices-CRM-Desktop---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Mobil-fd744-ould-work-on-tablet-devices-CRM-Desktop---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should work on mobile devices",
+      "status": "failed",
+      "duration": 14493,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "work on mobile devices",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Menu' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Mobil-0b67b-ould-work-on-mobile-devices-CRM-Desktop---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Mobil-0b67b-ould-work-on-mobile-devices-CRM-Desktop---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should have proper ARIA attributes",
+      "status": "failed",
+      "duration": 14371,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "have proper ARIA attributes",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m failed\n\nLocator:  getByRole('button', { name: 'New Project' })\nExpected: visible\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Acces-65dac-have-proper-ARIA-attributes-CRM-Desktop---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Acces-65dac-have-proper-ARIA-attributes-CRM-Desktop---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should test all AI services",
+      "status": "failed",
+      "duration": 12893,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "all AI services",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Test OpenRouter Connection' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-47147-should-test-all-AI-services-CRM-Mobile---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-47147-should-test-all-AI-services-CRM-Mobile---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle AI service failure gracefully",
+      "status": "failed",
+      "duration": 12986,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "handle AI service failure gracefully",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Test OpenRouter Connection' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-eec6b--service-failure-gracefully-CRM-Mobile---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-eec6b--service-failure-gracefully-CRM-Mobile---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should update task status",
+      "status": "failed",
+      "duration": 13185,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "update task status",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be updated successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Task' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-c3905-h-should-update-task-status-CRM-Mobile---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-c3905-h-should-update-task-status-CRM-Mobile---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should complete full project workflow",
+      "status": "failed",
+      "duration": 13184,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "complete full project workflow",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-User--ed24f-plete-full-project-workflow-CRM-Mobile---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-User--ed24f-plete-full-project-workflow-CRM-Mobile---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle network errors gracefully",
+      "status": "failed",
+      "duration": 13035,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "handle network errors gracefully",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-4ad97-e-network-errors-gracefully-CRM-Mobile---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-4ad97-e-network-errors-gracefully-CRM-Mobile---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should test individual AI services",
+      "status": "failed",
+      "duration": 13051,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "individual AI services",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Test OpenRouter Connection' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-35e65-test-individual-AI-services-CRM-Mobile---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-35e65-test-individual-AI-services-CRM-Mobile---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle project with multiple tasks",
+      "status": "failed",
+      "duration": 13079,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "handle project with multiple tasks",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-User--83033-project-with-multiple-tasks-CRM-Mobile---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-User--83033-project-with-multiple-tasks-CRM-Mobile---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle validation errors",
+      "status": "failed",
+      "duration": 12920,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "handle validation errors",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-1dec1-ld-handle-validation-errors-CRM-Mobile---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-1dec1-ld-handle-validation-errors-CRM-Mobile---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should load pages within acceptable time",
+      "status": "passed",
+      "duration": 1768,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "load pages within acceptable time",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "Test passed successfully",
+      "screenshots": [],
+      "videos": [],
+      "traces": []
+    },
+    {
+      "title": "should handle AI service timeout",
+      "status": "failed",
+      "duration": 12241,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "handle AI service timeout",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Test OpenRouter Connection' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-5b80b-d-handle-AI-service-timeout-CRM-Mobile---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-5b80b-d-handle-AI-service-timeout-CRM-Mobile---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should support keyboard navigation",
+      "status": "failed",
+      "duration": 12625,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "support keyboard navigation",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m()\u001b[22m failed\n\nLocator:  getByRole('button', { name: 'New Project' })\nExpected: focused\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Acces-605c1-support-keyboard-navigation-CRM-Mobile---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Acces-605c1-support-keyboard-navigation-CRM-Mobile---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should have proper ARIA attributes",
+      "status": "failed",
+      "duration": 13254,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "have proper ARIA attributes",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m failed\n\nLocator:  getByRole('button', { name: 'New Project' })\nExpected: visible\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Acces-65dac-have-proper-ARIA-attributes-CRM-Mobile---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Acces-65dac-have-proper-ARIA-attributes-CRM-Mobile---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should work on mobile devices",
+      "status": "failed",
+      "duration": 13169,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "work on mobile devices",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Menu' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Mobil-0b67b-ould-work-on-mobile-devices-CRM-Mobile---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Mobil-0b67b-ould-work-on-mobile-devices-CRM-Mobile---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle large datasets efficiently",
+      "status": "failed",
+      "duration": 13046,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "handle large datasets efficiently",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m failed\n\nLocator:  getByText('Project 1')\nExpected: visible\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Project 1')\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Perfo-3e034--large-datasets-efficiently-CRM-Mobile---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Perfo-3e034--large-datasets-efficiently-CRM-Mobile---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should work on tablet devices",
+      "status": "failed",
+      "duration": 13546,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "work on tablet devices",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Task' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Mobil-fd744-ould-work-on-tablet-devices-CRM-Mobile---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Mobil-fd744-ould-work-on-tablet-devices-CRM-Mobile---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should create new project",
+      "status": "failed",
+      "duration": 14209,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "create new project",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be created successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-edb53-h-should-create-new-project-CRM-Tablet---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-edb53-h-should-create-new-project-CRM-Tablet---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should create project with AI analysis",
+      "status": "failed",
+      "duration": 13681,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "create project with AI analysis",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be created successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-b1d10-te-project-with-AI-analysis-CRM-Tablet---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-b1d10-te-project-with-AI-analysis-CRM-Tablet---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should delete project",
+      "status": "failed",
+      "duration": 15227,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "delete project",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be deleted successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-3ece7-roach-should-delete-project-CRM-Tablet---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-3ece7-roach-should-delete-project-CRM-Tablet---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should create new task",
+      "status": "failed",
+      "duration": 15552,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "create new task",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be created successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Task' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-3103b-oach-should-create-new-task-CRM-Tablet---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-3103b-oach-should-create-new-task-CRM-Tablet---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should update task status",
+      "status": "failed",
+      "duration": 15555,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "update task status",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be updated successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Task' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-c3905-h-should-update-task-status-CRM-Tablet---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-c3905-h-should-update-task-status-CRM-Tablet---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should test all AI services",
+      "status": "failed",
+      "duration": 15617,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "all AI services",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Test OpenRouter Connection' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-47147-should-test-all-AI-services-CRM-Tablet---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-47147-should-test-all-AI-services-CRM-Tablet---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should create task with AI recommendations",
+      "status": "failed",
+      "duration": 15629,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "create task with AI recommendations",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be created successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Task' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-0decd-ask-with-AI-recommendations-CRM-Tablet---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-0decd-ask-with-AI-recommendations-CRM-Tablet---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle AI service failure gracefully",
+      "status": "failed",
+      "duration": 15628,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "handle AI service failure gracefully",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Test OpenRouter Connection' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-eec6b--service-failure-gracefully-CRM-Tablet---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-eec6b--service-failure-gracefully-CRM-Tablet---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should test individual AI services",
+      "status": "failed",
+      "duration": 15246,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "individual AI services",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Test OpenRouter Connection' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-35e65-test-individual-AI-services-CRM-Tablet---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-35e65-test-individual-AI-services-CRM-Tablet---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should complete full project workflow",
+      "status": "failed",
+      "duration": 13765,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "complete full project workflow",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-User--ed24f-plete-full-project-workflow-CRM-Tablet---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-User--ed24f-plete-full-project-workflow-CRM-Tablet---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should load pages within acceptable time",
+      "status": "passed",
+      "duration": 1506,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "load pages within acceptable time",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "Test passed successfully",
+      "screenshots": [],
+      "videos": [],
+      "traces": []
+    },
+    {
+      "title": "should handle project with multiple tasks",
+      "status": "failed",
+      "duration": 15432,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "handle project with multiple tasks",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-User--83033-project-with-multiple-tasks-CRM-Tablet---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-User--83033-project-with-multiple-tasks-CRM-Tablet---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle validation errors",
+      "status": "failed",
+      "duration": 15670,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "handle validation errors",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-1dec1-ld-handle-validation-errors-CRM-Tablet---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-1dec1-ld-handle-validation-errors-CRM-Tablet---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should support keyboard navigation",
+      "status": "failed",
+      "duration": 15203,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "support keyboard navigation",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m()\u001b[22m failed\n\nLocator:  getByRole('button', { name: 'New Project' })\nExpected: focused\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Acces-605c1-support-keyboard-navigation-CRM-Tablet---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Acces-605c1-support-keyboard-navigation-CRM-Tablet---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle AI service timeout",
+      "status": "failed",
+      "duration": 15540,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "handle AI service timeout",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Test OpenRouter Connection' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-5b80b-d-handle-AI-service-timeout-CRM-Tablet---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-5b80b-d-handle-AI-service-timeout-CRM-Tablet---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle network errors gracefully",
+      "status": "failed",
+      "duration": 15686,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "handle network errors gracefully",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-4ad97-e-network-errors-gracefully-CRM-Tablet---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-4ad97-e-network-errors-gracefully-CRM-Tablet---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle large datasets efficiently",
+      "status": "failed",
+      "duration": 15481,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "handle large datasets efficiently",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m failed\n\nLocator:  getByText('Project 1')\nExpected: visible\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Project 1')\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Perfo-3e034--large-datasets-efficiently-CRM-Tablet---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Perfo-3e034--large-datasets-efficiently-CRM-Tablet---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should have proper ARIA attributes",
+      "status": "failed",
+      "duration": 14898,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "have proper ARIA attributes",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m failed\n\nLocator:  getByRole('button', { name: 'New Project' })\nExpected: visible\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Acces-65dac-have-proper-ARIA-attributes-CRM-Tablet---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Acces-65dac-have-proper-ARIA-attributes-CRM-Tablet---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should work on mobile devices",
+      "status": "failed",
+      "duration": 14421,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "work on mobile devices",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Menu' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Mobil-0b67b-ould-work-on-mobile-devices-CRM-Tablet---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Mobil-0b67b-ould-work-on-mobile-devices-CRM-Tablet---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should work on tablet devices",
+      "status": "failed",
+      "duration": 14871,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "work on tablet devices",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Task' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Mobil-fd744-ould-work-on-tablet-devices-CRM-Tablet---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Mobil-fd744-ould-work-on-tablet-devices-CRM-Tablet---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should create new project",
+      "status": "failed",
+      "duration": 13525,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "create new project",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be created successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-edb53-h-should-create-new-project-Firefox---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-edb53-h-should-create-new-project-Firefox---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should test all AI services",
+      "status": "failed",
+      "duration": 14134,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "all AI services",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Test OpenRouter Connection' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-47147-should-test-all-AI-services-Firefox---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-47147-should-test-all-AI-services-Firefox---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should create task with AI recommendations",
+      "status": "failed",
+      "duration": 14840,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "create task with AI recommendations",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be created successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Task' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-0decd-ask-with-AI-recommendations-Firefox---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-0decd-ask-with-AI-recommendations-Firefox---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should create project with AI analysis",
+      "status": "failed",
+      "duration": 16113,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "create project with AI analysis",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be created successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-b1d10-te-project-with-AI-analysis-Firefox---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-b1d10-te-project-with-AI-analysis-Firefox---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should update task status",
+      "status": "failed",
+      "duration": 16643,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "update task status",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be updated successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Task' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-c3905-h-should-update-task-status-Firefox---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-c3905-h-should-update-task-status-Firefox---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should create new task",
+      "status": "failed",
+      "duration": 16462,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "create new task",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be created successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Task' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-3103b-oach-should-create-new-task-Firefox---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-3103b-oach-should-create-new-task-Firefox---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should delete project",
+      "status": "failed",
+      "duration": 16515,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "delete project",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be deleted successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-3ece7-roach-should-delete-project-Firefox---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-3ece7-roach-should-delete-project-Firefox---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should test individual AI services",
+      "status": "failed",
+      "duration": 14450,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "individual AI services",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Test OpenRouter Connection' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-35e65-test-individual-AI-services-Firefox---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-35e65-test-individual-AI-services-Firefox---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should load pages within acceptable time",
+      "status": "passed",
+      "duration": 5264,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "load pages within acceptable time",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "Test passed successfully",
+      "screenshots": [],
+      "videos": [],
+      "traces": []
+    },
+    {
+      "title": "should complete full project workflow",
+      "status": "failed",
+      "duration": 15062,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "complete full project workflow",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-User--ed24f-plete-full-project-workflow-Firefox---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-User--ed24f-plete-full-project-workflow-Firefox---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle project with multiple tasks",
+      "status": "failed",
+      "duration": 16228,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "handle project with multiple tasks",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-User--83033-project-with-multiple-tasks-Firefox---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-User--83033-project-with-multiple-tasks-Firefox---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle AI service failure gracefully",
+      "status": "failed",
+      "duration": 15862,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "handle AI service failure gracefully",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Test OpenRouter Connection' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-eec6b--service-failure-gracefully-Firefox---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-eec6b--service-failure-gracefully-Firefox---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle network errors gracefully",
+      "status": "failed",
+      "duration": 14565,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "handle network errors gracefully",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-4ad97-e-network-errors-gracefully-Firefox---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-4ad97-e-network-errors-gracefully-Firefox---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle validation errors",
+      "status": "failed",
+      "duration": 14390,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "handle validation errors",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-1dec1-ld-handle-validation-errors-Firefox---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-1dec1-ld-handle-validation-errors-Firefox---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should support keyboard navigation",
+      "status": "failed",
+      "duration": 11929,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "support keyboard navigation",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m()\u001b[22m failed\n\nLocator:  getByRole('button', { name: 'New Project' })\nExpected: focused\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Acces-605c1-support-keyboard-navigation-Firefox---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Acces-605c1-support-keyboard-navigation-Firefox---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle AI service timeout",
+      "status": "failed",
+      "duration": 15953,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "handle AI service timeout",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Test OpenRouter Connection' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-5b80b-d-handle-AI-service-timeout-Firefox---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-5b80b-d-handle-AI-service-timeout-Firefox---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle large datasets efficiently",
+      "status": "failed",
+      "duration": 14453,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "handle large datasets efficiently",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m failed\n\nLocator:  getByText('Project 1')\nExpected: visible\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Project 1')\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Perfo-3e034--large-datasets-efficiently-Firefox---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Perfo-3e034--large-datasets-efficiently-Firefox---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should have proper ARIA attributes",
+      "status": "failed",
+      "duration": 14821,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "have proper ARIA attributes",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m failed\n\nLocator:  getByRole('button', { name: 'New Project' })\nExpected: visible\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Acces-65dac-have-proper-ARIA-attributes-Firefox---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Acces-65dac-have-proper-ARIA-attributes-Firefox---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should create new project",
+      "status": "failed",
+      "duration": 14535,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "create new project",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be created successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-edb53-h-should-create-new-project-Safari---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-edb53-h-should-create-new-project-Safari---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should work on mobile devices",
+      "status": "failed",
+      "duration": 16058,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "work on mobile devices",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Menu' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Mobil-0b67b-ould-work-on-mobile-devices-Firefox---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Mobil-0b67b-ould-work-on-mobile-devices-Firefox---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should create project with AI analysis",
+      "status": "failed",
+      "duration": 12635,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "create project with AI analysis",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be created successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-b1d10-te-project-with-AI-analysis-Safari---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-b1d10-te-project-with-AI-analysis-Safari---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should work on tablet devices",
+      "status": "failed",
+      "duration": 15804,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "work on tablet devices",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Task' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Mobil-fd744-ould-work-on-tablet-devices-Firefox---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Mobil-fd744-ould-work-on-tablet-devices-Firefox---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should delete project",
+      "status": "failed",
+      "duration": 12333,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "delete project",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be deleted successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-3ece7-roach-should-delete-project-Safari---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-3ece7-roach-should-delete-project-Safari---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should create new task",
+      "status": "failed",
+      "duration": 12077,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "create new task",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be created successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Task' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-3103b-oach-should-create-new-task-Safari---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-3103b-oach-should-create-new-task-Safari---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should create task with AI recommendations",
+      "status": "failed",
+      "duration": 11975,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "create task with AI recommendations",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be created successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Task' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-0decd-ask-with-AI-recommendations-Safari---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-0decd-ask-with-AI-recommendations-Safari---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should update task status",
+      "status": "failed",
+      "duration": 12227,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "update task status",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be updated successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Task' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-c3905-h-should-update-task-status-Safari---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-c3905-h-should-update-task-status-Safari---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should test all AI services",
+      "status": "failed",
+      "duration": 12173,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "all AI services",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Test OpenRouter Connection' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-47147-should-test-all-AI-services-Safari---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-47147-should-test-all-AI-services-Safari---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle AI service failure gracefully",
+      "status": "failed",
+      "duration": 11819,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "handle AI service failure gracefully",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Test OpenRouter Connection' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-eec6b--service-failure-gracefully-Safari---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-eec6b--service-failure-gracefully-Safari---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should test individual AI services",
+      "status": "failed",
+      "duration": 12121,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "individual AI services",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Test OpenRouter Connection' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-35e65-test-individual-AI-services-Safari---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-35e65-test-individual-AI-services-Safari---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should complete full project workflow",
+      "status": "failed",
+      "duration": 12245,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "complete full project workflow",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-User--ed24f-plete-full-project-workflow-Safari---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-User--ed24f-plete-full-project-workflow-Safari---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle project with multiple tasks",
+      "status": "failed",
+      "duration": 11978,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "handle project with multiple tasks",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-User--83033-project-with-multiple-tasks-Safari---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-User--83033-project-with-multiple-tasks-Safari---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle network errors gracefully",
+      "status": "failed",
+      "duration": 12164,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "handle network errors gracefully",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-4ad97-e-network-errors-gracefully-Safari---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-4ad97-e-network-errors-gracefully-Safari---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should load pages within acceptable time",
+      "status": "passed",
+      "duration": 2850,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "load pages within acceptable time",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "Test passed successfully",
+      "screenshots": [],
+      "videos": [],
+      "traces": []
+    },
+    {
+      "title": "should handle validation errors",
+      "status": "failed",
+      "duration": 11871,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "handle validation errors",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-1dec1-ld-handle-validation-errors-Safari---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-1dec1-ld-handle-validation-errors-Safari---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle AI service timeout",
+      "status": "failed",
+      "duration": 12189,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "handle AI service timeout",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Test OpenRouter Connection' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-5b80b-d-handle-AI-service-timeout-Safari---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-5b80b-d-handle-AI-service-timeout-Safari---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle large datasets efficiently",
+      "status": "failed",
+      "duration": 12817,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "handle large datasets efficiently",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m failed\n\nLocator:  getByText('Project 1')\nExpected: visible\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Project 1')\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Perfo-3e034--large-datasets-efficiently-Safari---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Perfo-3e034--large-datasets-efficiently-Safari---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should support keyboard navigation",
+      "status": "failed",
+      "duration": 12799,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "support keyboard navigation",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m()\u001b[22m failed\n\nLocator:  getByRole('button', { name: 'New Project' })\nExpected: focused\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Acces-605c1-support-keyboard-navigation-Safari---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Acces-605c1-support-keyboard-navigation-Safari---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should have proper ARIA attributes",
+      "status": "failed",
+      "duration": 12033,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "have proper ARIA attributes",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m failed\n\nLocator:  getByRole('button', { name: 'New Project' })\nExpected: visible\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Acces-65dac-have-proper-ARIA-attributes-Safari---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Acces-65dac-have-proper-ARIA-attributes-Safari---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should work on mobile devices",
+      "status": "failed",
+      "duration": 12151,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "work on mobile devices",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Menu' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Mobil-0b67b-ould-work-on-mobile-devices-Safari---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Mobil-0b67b-ould-work-on-mobile-devices-Safari---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should work on tablet devices",
+      "status": "failed",
+      "duration": 12599,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "work on tablet devices",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Task' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Mobil-fd744-ould-work-on-tablet-devices-Safari---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Mobil-fd744-ould-work-on-tablet-devices-Safari---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should create new project",
+      "status": "failed",
+      "duration": 12674,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "create new project",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be created successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-edb53-h-should-create-new-project-AI-Integration---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-edb53-h-should-create-new-project-AI-Integration---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should create project with AI analysis",
+      "status": "failed",
+      "duration": 12324,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "create project with AI analysis",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be created successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-b1d10-te-project-with-AI-analysis-AI-Integration---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-b1d10-te-project-with-AI-analysis-AI-Integration---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should delete project",
+      "status": "failed",
+      "duration": 12185,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "delete project",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be deleted successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-3ece7-roach-should-delete-project-AI-Integration---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-3ece7-roach-should-delete-project-AI-Integration---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should create new task",
+      "status": "failed",
+      "duration": 12025,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "create new task",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be created successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Task' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-3103b-oach-should-create-new-task-AI-Integration---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-3103b-oach-should-create-new-task-AI-Integration---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should create task with AI recommendations",
+      "status": "failed",
+      "duration": 12348,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "create task with AI recommendations",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be created successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Task' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-0decd-ask-with-AI-recommendations-AI-Integration---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-0decd-ask-with-AI-recommendations-AI-Integration---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should update task status",
+      "status": "failed",
+      "duration": 12235,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "update task status",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be updated successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Task' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-c3905-h-should-update-task-status-AI-Integration---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-c3905-h-should-update-task-status-AI-Integration---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should test all AI services",
+      "status": "failed",
+      "duration": 12232,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "all AI services",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Test OpenRouter Connection' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-47147-should-test-all-AI-services-AI-Integration---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-47147-should-test-all-AI-services-AI-Integration---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle AI service failure gracefully",
+      "status": "failed",
+      "duration": 12252,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "handle AI service failure gracefully",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Test OpenRouter Connection' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-eec6b--service-failure-gracefully-AI-Integration---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-eec6b--service-failure-gracefully-AI-Integration---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should test individual AI services",
+      "status": "failed",
+      "duration": 12362,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "individual AI services",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Test OpenRouter Connection' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-35e65-test-individual-AI-services-AI-Integration---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-35e65-test-individual-AI-services-AI-Integration---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should load pages within acceptable time",
+      "status": "passed",
+      "duration": 1287,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "load pages within acceptable time",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "Test passed successfully",
+      "screenshots": [],
+      "videos": [],
+      "traces": []
+    },
+    {
+      "title": "should complete full project workflow",
+      "status": "failed",
+      "duration": 12635,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "complete full project workflow",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-User--ed24f-plete-full-project-workflow-AI-Integration---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-User--ed24f-plete-full-project-workflow-AI-Integration---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle project with multiple tasks",
+      "status": "failed",
+      "duration": 12325,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "handle project with multiple tasks",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-User--83033-project-with-multiple-tasks-AI-Integration---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-User--83033-project-with-multiple-tasks-AI-Integration---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle network errors gracefully",
+      "status": "failed",
+      "duration": 11669,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "handle network errors gracefully",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-4ad97-e-network-errors-gracefully-AI-Integration---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-4ad97-e-network-errors-gracefully-AI-Integration---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle validation errors",
+      "status": "failed",
+      "duration": 11921,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "handle validation errors",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-1dec1-ld-handle-validation-errors-AI-Integration---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-1dec1-ld-handle-validation-errors-AI-Integration---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle AI service timeout",
+      "status": "failed",
+      "duration": 12380,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "handle AI service timeout",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Test OpenRouter Connection' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-5b80b-d-handle-AI-service-timeout-AI-Integration---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-5b80b-d-handle-AI-service-timeout-AI-Integration---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle large datasets efficiently",
+      "status": "failed",
+      "duration": 12462,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "handle large datasets efficiently",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m failed\n\nLocator:  getByText('Project 1')\nExpected: visible\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Project 1')\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Perfo-3e034--large-datasets-efficiently-AI-Integration---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Perfo-3e034--large-datasets-efficiently-AI-Integration---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should have proper ARIA attributes",
+      "status": "failed",
+      "duration": 12368,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "have proper ARIA attributes",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m failed\n\nLocator:  getByRole('button', { name: 'New Project' })\nExpected: visible\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Acces-65dac-have-proper-ARIA-attributes-AI-Integration---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Acces-65dac-have-proper-ARIA-attributes-AI-Integration---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should support keyboard navigation",
+      "status": "failed",
+      "duration": 12502,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "support keyboard navigation",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m()\u001b[22m failed\n\nLocator:  getByRole('button', { name: 'New Project' })\nExpected: focused\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Acces-605c1-support-keyboard-navigation-AI-Integration---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Acces-605c1-support-keyboard-navigation-AI-Integration---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should work on mobile devices",
+      "status": "failed",
+      "duration": 12991,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "work on mobile devices",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Menu' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Mobil-0b67b-ould-work-on-mobile-devices-AI-Integration---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Mobil-0b67b-ould-work-on-mobile-devices-AI-Integration---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should work on tablet devices",
+      "status": "failed",
+      "duration": 12446,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "work on tablet devices",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Task' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Mobil-fd744-ould-work-on-tablet-devices-AI-Integration---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Mobil-fd744-ould-work-on-tablet-devices-AI-Integration---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should create new project",
+      "status": "failed",
+      "duration": 12286,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "create new project",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be created successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-edb53-h-should-create-new-project-Performance---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-edb53-h-should-create-new-project-Performance---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should create project with AI analysis",
+      "status": "failed",
+      "duration": 12142,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "create project with AI analysis",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be created successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-b1d10-te-project-with-AI-analysis-Performance---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-b1d10-te-project-with-AI-analysis-Performance---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should delete project",
+      "status": "failed",
+      "duration": 12419,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "delete project",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be deleted successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-3ece7-roach-should-delete-project-Performance---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-3ece7-roach-should-delete-project-Performance---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should create new task",
+      "status": "failed",
+      "duration": 12162,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "create new task",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be created successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Task' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-3103b-oach-should-create-new-task-Performance---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-3103b-oach-should-create-new-task-Performance---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should create task with AI recommendations",
+      "status": "failed",
+      "duration": 12107,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "create task with AI recommendations",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be created successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Task' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-0decd-ask-with-AI-recommendations-Performance---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-0decd-ask-with-AI-recommendations-Performance---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should update task status",
+      "status": "failed",
+      "duration": 12342,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "update task status",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be updated successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Task' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-c3905-h-should-update-task-status-Performance---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-c3905-h-should-update-task-status-Performance---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should test all AI services",
+      "status": "failed",
+      "duration": 12696,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "all AI services",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Test OpenRouter Connection' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-47147-should-test-all-AI-services-Performance---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-47147-should-test-all-AI-services-Performance---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle AI service failure gracefully",
+      "status": "failed",
+      "duration": 12521,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "handle AI service failure gracefully",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Test OpenRouter Connection' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-eec6b--service-failure-gracefully-Performance---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-eec6b--service-failure-gracefully-Performance---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should load pages within acceptable time",
+      "status": "passed",
+      "duration": 1222,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "load pages within acceptable time",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "Test passed successfully",
+      "screenshots": [],
+      "videos": [],
+      "traces": []
+    },
+    {
+      "title": "should test individual AI services",
+      "status": "failed",
+      "duration": 12514,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "individual AI services",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Test OpenRouter Connection' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-35e65-test-individual-AI-services-Performance---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-35e65-test-individual-AI-services-Performance---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should complete full project workflow",
+      "status": "failed",
+      "duration": 11882,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "complete full project workflow",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-User--ed24f-plete-full-project-workflow-Performance---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-User--ed24f-plete-full-project-workflow-Performance---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle project with multiple tasks",
+      "status": "failed",
+      "duration": 12091,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "handle project with multiple tasks",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-User--83033-project-with-multiple-tasks-Performance---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-User--83033-project-with-multiple-tasks-Performance---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle network errors gracefully",
+      "status": "failed",
+      "duration": 12046,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "handle network errors gracefully",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-4ad97-e-network-errors-gracefully-Performance---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-4ad97-e-network-errors-gracefully-Performance---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle validation errors",
+      "status": "failed",
+      "duration": 12201,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "handle validation errors",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-1dec1-ld-handle-validation-errors-Performance---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-1dec1-ld-handle-validation-errors-Performance---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle AI service timeout",
+      "status": "failed",
+      "duration": 12469,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "handle AI service timeout",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Test OpenRouter Connection' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-5b80b-d-handle-AI-service-timeout-Performance---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-5b80b-d-handle-AI-service-timeout-Performance---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle large datasets efficiently",
+      "status": "failed",
+      "duration": 11885,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "handle large datasets efficiently",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m failed\n\nLocator:  getByText('Project 1')\nExpected: visible\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Project 1')\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Perfo-3e034--large-datasets-efficiently-Performance---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Perfo-3e034--large-datasets-efficiently-Performance---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should support keyboard navigation",
+      "status": "failed",
+      "duration": 11537,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "support keyboard navigation",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m()\u001b[22m failed\n\nLocator:  getByRole('button', { name: 'New Project' })\nExpected: focused\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Acces-605c1-support-keyboard-navigation-Performance---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Acces-605c1-support-keyboard-navigation-Performance---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should have proper ARIA attributes",
+      "status": "failed",
+      "duration": 12303,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "have proper ARIA attributes",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m failed\n\nLocator:  getByRole('button', { name: 'New Project' })\nExpected: visible\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Acces-65dac-have-proper-ARIA-attributes-Performance---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Acces-65dac-have-proper-ARIA-attributes-Performance---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should work on mobile devices",
+      "status": "failed",
+      "duration": 12096,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "work on mobile devices",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Menu' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Mobil-0b67b-ould-work-on-mobile-devices-Performance---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Mobil-0b67b-ould-work-on-mobile-devices-Performance---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should work on tablet devices",
+      "status": "failed",
+      "duration": 12094,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "work on tablet devices",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Task' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Mobil-fd744-ould-work-on-tablet-devices-Performance---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Mobil-fd744-ould-work-on-tablet-devices-Performance---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should create new project",
+      "status": "failed",
+      "duration": 11778,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "create new project",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be created successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-edb53-h-should-create-new-project-Accessibility---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-edb53-h-should-create-new-project-Accessibility---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should create project with AI analysis",
+      "status": "failed",
+      "duration": 11748,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "create project with AI analysis",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be created successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-b1d10-te-project-with-AI-analysis-Accessibility---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-b1d10-te-project-with-AI-analysis-Accessibility---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should delete project",
+      "status": "failed",
+      "duration": 11918,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "delete project",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be deleted successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-3ece7-roach-should-delete-project-Accessibility---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Proje-3ece7-roach-should-delete-project-Accessibility---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should create new task",
+      "status": "failed",
+      "duration": 12054,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "create new task",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be created successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Task' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-3103b-oach-should-create-new-task-Accessibility---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-3103b-oach-should-create-new-task-Accessibility---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should create task with AI recommendations",
+      "status": "failed",
+      "duration": 12170,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "create task with AI recommendations",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be created successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Task' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-0decd-ask-with-AI-recommendations-Accessibility---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-0decd-ask-with-AI-recommendations-Accessibility---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should update task status",
+      "status": "failed",
+      "duration": 11853,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "update task status",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Item should be updated successfully using page object",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Task' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-c3905-h-should-update-task-status-Accessibility---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Tasks-c3905-h-should-update-task-status-Accessibility---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should test all AI services",
+      "status": "failed",
+      "duration": 12009,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "all AI services",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Test OpenRouter Connection' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-47147-should-test-all-AI-services-Accessibility---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-47147-should-test-all-AI-services-Accessibility---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle AI service failure gracefully",
+      "status": "failed",
+      "duration": 12252,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "handle AI service failure gracefully",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Test OpenRouter Connection' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-eec6b--service-failure-gracefully-Accessibility---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-eec6b--service-failure-gracefully-Accessibility---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should load pages within acceptable time",
+      "status": "passed",
+      "duration": 1189,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "load pages within acceptable time",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "Test passed successfully",
+      "screenshots": [],
+      "videos": [],
+      "traces": []
+    },
+    {
+      "title": "should test individual AI services",
+      "status": "failed",
+      "duration": 12088,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "individual AI services",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Test OpenRouter Connection' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-35e65-test-individual-AI-services-Accessibility---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-AI-In-35e65-test-individual-AI-services-Accessibility---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should complete full project workflow",
+      "status": "failed",
+      "duration": 11970,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "complete full project workflow",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-User--ed24f-plete-full-project-workflow-Accessibility---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-User--ed24f-plete-full-project-workflow-Accessibility---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle project with multiple tasks",
+      "status": "failed",
+      "duration": 12053,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "handle project with multiple tasks",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-User--83033-project-with-multiple-tasks-Accessibility---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-User--83033-project-with-multiple-tasks-Accessibility---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle network errors gracefully",
+      "status": "failed",
+      "duration": 12338,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "handle network errors gracefully",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-4ad97-e-network-errors-gracefully-Accessibility---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-4ad97-e-network-errors-gracefully-Accessibility---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle validation errors",
+      "status": "failed",
+      "duration": 12229,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "handle validation errors",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-1dec1-ld-handle-validation-errors-Accessibility---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-1dec1-ld-handle-validation-errors-Accessibility---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle AI service timeout",
+      "status": "failed",
+      "duration": 11756,
+      "approach": "OnlyTests",
+      "category": "AI Integration",
+      "pageObject": "AISettingsPage",
+      "description": "handle AI service timeout",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Test OpenRouter Connection' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-5b80b-d-handle-AI-service-timeout-Accessibility---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Error-5b80b-d-handle-AI-service-timeout-Accessibility---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should handle large datasets efficiently",
+      "status": "failed",
+      "duration": 11817,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "handle large datasets efficiently",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m failed\n\nLocator:  getByText('Project 1')\nExpected: visible\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Project 1')\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Perfo-3e034--large-datasets-efficiently-Accessibility---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Perfo-3e034--large-datasets-efficiently-Accessibility---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should support keyboard navigation",
+      "status": "failed",
+      "duration": 11583,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "support keyboard navigation",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m()\u001b[22m failed\n\nLocator:  getByRole('button', { name: 'New Project' })\nExpected: focused\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Acces-605c1-support-keyboard-navigation-Accessibility---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Acces-605c1-support-keyboard-navigation-Accessibility---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should have proper ARIA attributes",
+      "status": "failed",
+      "duration": 11940,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "have proper ARIA attributes",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m failed\n\nLocator:  getByRole('button', { name: 'New Project' })\nExpected: visible\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'New Project' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Acces-65dac-have-proper-ARIA-attributes-Accessibility---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Acces-65dac-have-proper-ARIA-attributes-Accessibility---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should work on mobile devices",
+      "status": "failed",
+      "duration": 11751,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "work on mobile devices",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Menu' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Mobil-0b67b-ould-work-on-mobile-devices-Accessibility---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Mobil-0b67b-ould-work-on-mobile-devices-Accessibility---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    },
+    {
+      "title": "should work on tablet devices",
+      "status": "failed",
+      "duration": 11646,
+      "approach": "OnlyTests",
+      "category": "General",
+      "pageObject": "BasePage",
+      "description": "work on tablet devices",
+      "steps": [
+        "Navigate to the page using page object",
+        "Perform actions using page object methods",
+        "Verify results using page object assertions"
+      ],
+      "expectedResult": "Test should pass without errors using OnlyTests approach",
+      "actualResult": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'New Task' })\u001b[22m\n",
+      "screenshots": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Mobil-fd744-ould-work-on-tablet-devices-Accessibility---OnlyTests\\test-failed-1.png"
+      ],
+      "videos": [
+        "E:\\My\\AI-Fitness_Coach_360\\dev-crm\\test-results\\ui-crm-onlytests-CRM-Mobil-fd744-ould-work-on-tablet-devices-Accessibility---OnlyTests\\video.webm"
+      ],
+      "traces": []
+    }
+  ],
+  "config": {
+    "workers": 8
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "timestamp": "2025-09-25T05:29:49.655Z",
+  "simulation": true,
+  "totalTests": 13,
+  "passed": 12,
+  "failed": 1,
+  "errors": 0,
+  "results": [
+    {
+      "prompt": "Разработка Плана Тестирования",
+      "category": "planning",
+      "status": "passed",
+      "duration": 2033,
+      "details": "Test executed successfully"
+    },
+    {
+      "prompt": "Разработка Стратегии Тестирования",
+      "category": "planning",
+      "status": "passed",
+      "duration": 1303,
+      "details": "Test executed successfully"
+    },
+    {
+      "prompt": "Оценка Рисков Программного Обеспечения",
+      "category": "planning",
+      "status": "passed",
+      "duration": 632,
+      "details": "Test executed successfully"
+    },
+    {
+      "prompt": "Анализ Требований и Генерация Вопросов",
+      "category": "analysis",
+      "status": "passed",
+      "duration": 690,
+      "details": "Test executed successfully"
+    },
+    {
+      "prompt": "Оценка Качества Пользовательских Историй",
+      "category": "analysis",
+      "status": "passed",
+      "duration": 2258,
+      "details": "Test executed successfully"
+    },
+    {
+      "prompt": "Создание Чек-листа Тестирования",
+      "category": "design",
+      "status": "passed",
+      "duration": 1135,
+      "details": "Test executed successfully"
+    },
+    {
+      "prompt": "Создание Тест-кейсов (Классический формат)",
+      "category": "design",
+      "status": "passed",
+      "duration": 1193,
+      "details": "Test executed successfully"
+    },
+    {
+      "prompt": "Создание Тест-кейсов (Табличный вид)",
+      "category": "design",
+      "status": "failed",
+      "duration": 1948,
+      "details": "Simulated test failure"
+    },
+    {
+      "prompt": "Создание Тест-кейсов (Формат Gherkin)",
+      "category": "design",
+      "status": "passed",
+      "duration": 1927,
+      "details": "Test executed successfully"
+    },
+    {
+      "prompt": "Проверка Качества Тест-кейсов",
+      "category": "design",
+      "status": "passed",
+      "duration": 1643,
+      "details": "Test executed successfully"
+    },
+    {
+      "prompt": "Генерация Тестовых Данных",
+      "category": "testData",
+      "status": "passed",
+      "duration": 1744,
+      "details": "Test executed successfully"
+    },
+    {
+      "prompt": "Улучшение Отчетов об Ошибках",
+      "category": "defects",
+      "status": "passed",
+      "duration": 1217,
+      "details": "Test executed successfully"
+    },
+    {
+      "prompt": "Итоговый Отчет о Тестировании",
+      "category": "completion",
+      "status": "passed",
+      "duration": 577,
+      "details": "Test executed successfully"
+    }
+  ],
+  "summary": {
+    "categories": {
+      "planning": {
+        "passed": 3,
+        "failed": 0,
+        "errors": 0
+      },
+      "analysis": {
+        "passed": 2,
+        "failed": 0,
+        "errors": 0
+      },
+      "design": {
+        "passed": 4,
+        "failed": 1,
+        "errors": 0
+      },
+      "testData": {
+        "passed": 1,
+        "failed": 0,
+        "errors": 0
+      },
+      "defects": {
+        "passed": 1,
+        "failed": 0,
+        "errors": 0
+      },
+      "completion": {
+        "passed": 1,
+        "failed": 0,
+        "errors": 0
+      }
+    },
+    "successRate": "92.31%",
+    "averageDuration": "1408ms"
+  },
+  "crmSystem": {
+    "status": "simulated",
+    "baseURL": "http://localhost:3000",
+    "responseTime": 150
+  },
+  "onlyTestsPrompts": [
+    {
+      "title": "Разработка Плана Тестирования",
+      "category": "planning",
+      "status": "simulated"
+    },
+    {
+      "title": "Разработка Стратегии Тестирования",
+      "category": "planning",
+      "status": "simulated"
+    },
+    {
+      "title": "Оценка Рисков Программного Обеспечения",
+      "category": "planning",
+      "status": "simulated"
+    },
+    {
+      "title": "Анализ Требований и Генерация Вопросов",
+      "category": "analysis",
+      "status": "simulated"
+    },
+    {
+      "title": "Оценка Качества Пользовательских Историй",
+      "category": "analysis",
+      "status": "simulated"
+    },
+    {
+      "title": "Создание Чек-листа Тестирования",
+      "category": "design",
+      "status": "simulated"
+    },
+    {
+      "title": "Создание Тест-кейсов (Классический формат)",
+      "category": "design",
+      "status": "simulated"
+    },
+    {
+      "title": "Создание Тест-кейсов (Табличный вид)",
+      "category": "design",
+      "status": "simulated"
+    },
+    {
+      "title": "Создание Тест-кейсов (Формат Gherkin)",
+      "category": "design",
+      "status": "simulated"
+    },
+    {
+      "title": "Проверка Качества Тест-кейсов",
+      "category": "design",
+      "status": "simulated"
+    },
+    {
+      "title": "Генерация Тестовых Данных",
+      "category": "testData",
+      "status": "simulated"
+    },
+    {
+      "title": "Улучшение Отчетов об Ошибках",
+      "category": "defects",
+      "status": "simulated"
+    },
+    {
+      "title": "Итоговый Отчет о Тестировании",
+      "category": "completion",
+      "status": "simulated"
+    }
+  ]
+}

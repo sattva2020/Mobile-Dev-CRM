@@ -1,0 +1,69 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]: CRM System
+    - navigation [ref=e4]:
+      - link "Дашборд" [ref=e5] [cursor=pointer]:
+        - /url: "#"
+      - link "Проекты" [ref=e6] [cursor=pointer]:
+        - /url: "#"
+      - link "Задачи" [ref=e7] [cursor=pointer]:
+        - /url: "#"
+      - link "Настройки" [ref=e8] [cursor=pointer]:
+        - /url: "#"
+  - main [ref=e9]:
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - heading "Всего проектов" [level=3] [ref=e12]
+        - paragraph [ref=e13]: "24"
+      - generic [ref=e14]:
+        - heading "Активные задачи" [level=3] [ref=e15]
+        - paragraph [ref=e16]: "156"
+      - generic [ref=e17]:
+        - heading "Завершено" [level=3] [ref=e18]
+        - paragraph [ref=e19]: "89"
+      - generic [ref=e20]:
+        - heading "Прогресс" [level=3] [ref=e21]
+        - paragraph [ref=e22]: 73%
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - heading "Последние задачи" [level=2] [ref=e25]
+        - table [ref=e26]:
+          - rowgroup [ref=e27]:
+            - row "Название Статус Приоритет Действия" [ref=e28]:
+              - cell "Название" [ref=e29]
+              - cell "Статус" [ref=e30]
+              - cell "Приоритет" [ref=e31]
+              - cell "Действия" [ref=e32]
+          - rowgroup [ref=e33]:
+            - row "Разработка API В работе Высокий Редактировать" [ref=e34]:
+              - cell "Разработка API" [ref=e35]
+              - cell "В работе" [ref=e36]:
+                - generic [ref=e37]: В работе
+              - cell "Высокий" [ref=e38]
+              - cell "Редактировать" [ref=e39]:
+                - button "Редактировать" [ref=e40] [cursor=pointer]
+            - row "Тестирование Завершено Средний Просмотр" [ref=e41]:
+              - cell "Тестирование" [ref=e42]
+              - cell "Завершено" [ref=e43]:
+                - generic [ref=e44]: Завершено
+              - cell "Средний" [ref=e45]
+              - cell "Просмотр" [ref=e46]:
+                - button "Просмотр" [ref=e47] [cursor=pointer]
+            - row "Документация В работе Низкий Редактировать" [ref=e48]:
+              - cell "Документация" [ref=e49]
+              - cell "В работе" [ref=e50]:
+                - generic [ref=e51]: В работе
+              - cell "Низкий" [ref=e52]
+              - cell "Редактировать" [ref=e53]:
+                - button "Редактировать" [ref=e54] [cursor=pointer]
+      - generic [ref=e55]:
+        - heading "Быстрые действия" [level=2] [ref=e56]
+        - generic [ref=e57]:
+          - button "Создать проект" [ref=e58] [cursor=pointer]
+          - button "Добавить задачу" [ref=e59] [cursor=pointer]
+          - button "Просмотреть отчеты" [ref=e60] [cursor=pointer]
+          - button "Настройки" [ref=e61] [cursor=pointer]
+```

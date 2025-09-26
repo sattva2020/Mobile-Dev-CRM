@@ -1,0 +1,29 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]: CRM
+    - button "☰" [ref=e4] [cursor=pointer]
+  - main [ref=e5]:
+    - generic [ref=e6]:
+      - heading "Статистика" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - paragraph [ref=e10]: "24"
+          - paragraph [ref=e11]: Проекты
+        - generic [ref=e12]:
+          - paragraph [ref=e13]: "156"
+          - paragraph [ref=e14]: Задачи
+        - generic [ref=e15]:
+          - paragraph [ref=e16]: "89"
+          - paragraph [ref=e17]: Завершено
+        - generic [ref=e18]:
+          - paragraph [ref=e19]: 73%
+          - paragraph [ref=e20]: Прогресс
+    - generic [ref=e21]:
+      - heading "Быстрые действия" [level=2] [ref=e22]
+      - button "Создать проект" [ref=e23] [cursor=pointer]
+      - button "Добавить задачу" [ref=e24] [cursor=pointer]
+      - button "Просмотреть отчеты" [ref=e25] [cursor=pointer]
+```

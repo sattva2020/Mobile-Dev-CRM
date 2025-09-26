@@ -1,0 +1,19 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - heading "Вход в CRM" [level=1] [ref=e3]
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: Email
+      - textbox "Email" [ref=e7]
+      - alert
+    - generic [ref=e8]:
+      - generic [ref=e9]: Пароль
+      - textbox "Пароль" [ref=e10]
+      - alert
+    - button "Войти в систему" [ref=e11] [cursor=pointer]: Войти
+  - paragraph [ref=e12]:
+    - link "Забыли пароль?" [ref=e13] [cursor=pointer]:
+      - /url: "#"
+```

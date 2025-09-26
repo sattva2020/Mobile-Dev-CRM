@@ -1,0 +1,233 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - generic [ref=e6]:
+    - generic [ref=e8]:
+      - img [ref=e10]
+      - generic [ref=e12]:
+        - heading "Mobile Dev CRM" [level=1] [ref=e13]
+        - paragraph [ref=e14]: AI-Fitness Coach 360
+    - generic [ref=e16]:
+      - img [ref=e17]
+      - textbox "Поиск..." [ref=e20]
+    - navigation [ref=e21]:
+      - button "Дашборд Обзор проекта" [ref=e22] [cursor=pointer]:
+        - img [ref=e24] [cursor=pointer]
+        - generic [ref=e29] [cursor=pointer]:
+          - generic [ref=e30] [cursor=pointer]: Дашборд
+          - paragraph [ref=e31] [cursor=pointer]: Обзор проекта
+      - button "Проекты Управление проектами" [ref=e32] [cursor=pointer]:
+        - img [ref=e34] [cursor=pointer]
+        - generic [ref=e36] [cursor=pointer]:
+          - generic [ref=e37] [cursor=pointer]: Проекты
+          - paragraph [ref=e38] [cursor=pointer]: Управление проектами
+      - button "Требования Анализ требований" [ref=e39] [cursor=pointer]:
+        - img [ref=e41] [cursor=pointer]
+        - generic [ref=e44] [cursor=pointer]:
+          - generic [ref=e45] [cursor=pointer]: Требования
+          - paragraph [ref=e46] [cursor=pointer]: Анализ требований
+      - button "Архитектура Архитектурные решения" [ref=e47] [cursor=pointer]:
+        - img [ref=e49] [cursor=pointer]
+        - generic [ref=e54] [cursor=pointer]:
+          - generic [ref=e55] [cursor=pointer]: Архитектура
+          - paragraph [ref=e56] [cursor=pointer]: Архитектурные решения
+      - button "Экраны Карта экранов" [ref=e57] [cursor=pointer]:
+        - img [ref=e59] [cursor=pointer]
+        - generic [ref=e61] [cursor=pointer]:
+          - generic [ref=e62] [cursor=pointer]: Экраны
+          - paragraph [ref=e63] [cursor=pointer]: Карта экранов
+      - button "Канбан Канбан доска" [ref=e64] [cursor=pointer]:
+        - img [ref=e66] [cursor=pointer]
+        - generic [ref=e70] [cursor=pointer]:
+          - generic [ref=e71] [cursor=pointer]: Канбан
+          - paragraph [ref=e72] [cursor=pointer]: Канбан доска
+      - button "Задачи Управление задачами" [ref=e73] [cursor=pointer]:
+        - img [ref=e75] [cursor=pointer]
+        - generic [ref=e76] [cursor=pointer]:
+          - generic [ref=e77] [cursor=pointer]: Задачи
+          - paragraph [ref=e78] [cursor=pointer]: Управление задачами
+      - button "GitHub Интеграция с GitHub" [ref=e79] [cursor=pointer]:
+        - img [ref=e81] [cursor=pointer]
+        - generic [ref=e84] [cursor=pointer]:
+          - generic [ref=e85] [cursor=pointer]: GitHub
+          - paragraph [ref=e86] [cursor=pointer]: Интеграция с GitHub
+      - button "AI Аналитика AI аналитика" [ref=e87] [cursor=pointer]:
+        - img [ref=e89] [cursor=pointer]
+        - generic [ref=e92] [cursor=pointer]:
+          - generic [ref=e93] [cursor=pointer]: AI Аналитика
+          - paragraph [ref=e94] [cursor=pointer]: AI аналитика
+      - button "AI Лаборатория AI эксперименты" [ref=e95] [cursor=pointer]:
+        - img [ref=e97] [cursor=pointer]
+        - generic [ref=e99] [cursor=pointer]:
+          - generic [ref=e100] [cursor=pointer]: AI Лаборатория
+          - paragraph [ref=e101] [cursor=pointer]: AI эксперименты
+      - button "Метрики Аналитика и метрики" [ref=e102] [cursor=pointer]:
+        - img [ref=e104] [cursor=pointer]
+        - generic [ref=e107] [cursor=pointer]:
+          - generic [ref=e108] [cursor=pointer]: Метрики
+          - paragraph [ref=e109] [cursor=pointer]: Аналитика и метрики
+      - button "Figma Интеграция с Figma" [ref=e110] [cursor=pointer]:
+        - img [ref=e112] [cursor=pointer]
+        - generic [ref=e118] [cursor=pointer]:
+          - generic [ref=e119] [cursor=pointer]: Figma
+          - paragraph [ref=e120] [cursor=pointer]: Интеграция с Figma
+      - button "Supabase Управление базой данных" [ref=e121] [cursor=pointer]:
+        - img [ref=e123] [cursor=pointer]
+        - generic [ref=e127] [cursor=pointer]:
+          - generic [ref=e128] [cursor=pointer]: Supabase
+          - paragraph [ref=e129] [cursor=pointer]: Управление базой данных
+      - button "Тестирование Тестирование и QA" [ref=e130] [cursor=pointer]:
+        - img [ref=e132] [cursor=pointer]
+        - generic [ref=e134] [cursor=pointer]:
+          - generic [ref=e135] [cursor=pointer]: Тестирование
+          - paragraph [ref=e136] [cursor=pointer]: Тестирование и QA
+      - button "Настройки Настройки системы" [active] [ref=e137] [cursor=pointer]:
+        - img [ref=e139] [cursor=pointer]
+        - generic [ref=e142] [cursor=pointer]:
+          - generic [ref=e143] [cursor=pointer]: Настройки
+          - paragraph [ref=e144] [cursor=pointer]: Настройки системы
+        - img [ref=e145] [cursor=pointer]
+    - generic [ref=e147]:
+      - generic [ref=e150]:
+        - paragraph [ref=e151]: GitHub
+        - paragraph [ref=e152]: Не подключен
+      - generic [ref=e155]:
+        - paragraph [ref=e156]: AI Service
+        - paragraph [ref=e157]: Не настроен
+  - generic [ref=e158]:
+    - generic [ref=e160]:
+      - generic [ref=e161]:
+        - heading "Настройки" [level=2] [ref=e162]
+        - generic [ref=e163]:
+          - generic [ref=e164]: •
+          - generic [ref=e165]: Настройки системы
+      - generic [ref=e166]:
+        - generic [ref=e167]:
+          - button "Создать" [ref=e168] [cursor=pointer]:
+            - img [ref=e169] [cursor=pointer]
+          - button "Фильтр" [ref=e170] [cursor=pointer]:
+            - img [ref=e171] [cursor=pointer]
+          - button "Изменить вид" [ref=e173] [cursor=pointer]:
+            - img [ref=e174] [cursor=pointer]
+        - button "Открыть уведомления" [ref=e176] [cursor=pointer]:
+          - img [ref=e177] [cursor=pointer]
+        - generic [ref=e180]:
+          - generic [ref=e182]: sattva2020
+          - generic [ref=e183]: /
+          - generic [ref=e184]: Ai-fitness-Coach-360
+        - button "Включить тёмную тему" [ref=e185] [cursor=pointer]:
+          - img [ref=e186] [cursor=pointer]
+    - main [ref=e188]:
+      - generic [ref=e190]:
+        - generic [ref=e191]:
+          - heading "Настройки" [level=1] [ref=e192]
+          - paragraph [ref=e193]: Управление конфигурацией системы и интеграциями
+        - generic [ref=e194]:
+          - generic [ref=e195]:
+            - img [ref=e197]
+            - heading "GitHub интеграция" [level=2] [ref=e200]
+          - generic [ref=e201]:
+            - generic [ref=e202]:
+              - generic [ref=e203]:
+                - img [ref=e204]
+                - generic [ref=e206]:
+                  - paragraph [ref=e207]: GitHub API
+                  - paragraph [ref=e208]: Не подключен
+              - generic [ref=e209]:
+                - button "Тест" [ref=e210] [cursor=pointer]
+                - button "Подключить" [ref=e211] [cursor=pointer]
+            - generic [ref=e212]:
+              - generic [ref=e213]:
+                - generic [ref=e214]: Personal Access Token
+                - generic [ref=e215]:
+                  - textbox "ghp_xxxxxxxxxxxxxxxxxxxx" [ref=e216]
+                  - button [ref=e217] [cursor=pointer]:
+                    - img [ref=e218] [cursor=pointer]
+                - paragraph [ref=e221]: Токен для доступа к GitHub API
+              - generic [ref=e222]:
+                - generic [ref=e223]:
+                  - generic [ref=e224]: Владелец репозитория
+                  - textbox "username" [ref=e226]: sattva2020
+                  - paragraph [ref=e227]: Имя пользователя или организации
+                - generic [ref=e228]:
+                  - generic [ref=e229]: Название репозитория
+                  - textbox "repository-name" [ref=e231]: Ai-fitness-Coach-360
+                  - paragraph [ref=e232]: Название репозитория
+            - generic [ref=e234]:
+              - generic [ref=e235]:
+                - heading "Автоматическая синхронизация" [level=3] [ref=e236]
+                - paragraph [ref=e237]: Автоматически синхронизировать задачи с GitHub Issues
+              - button [ref=e238] [cursor=pointer]
+        - generic [ref=e240]:
+          - generic [ref=e241]:
+            - img [ref=e243]
+            - heading "AI интеграция" [level=2] [ref=e246]
+          - generic [ref=e247]:
+            - generic [ref=e248]:
+              - generic [ref=e249]:
+                - img [ref=e250]
+                - generic [ref=e252]:
+                  - paragraph [ref=e253]: AI Assistant (Grok-4-Fast)
+                  - paragraph [ref=e254]: Не подключен
+              - generic [ref=e255]:
+                - button "Тест" [ref=e256] [cursor=pointer]
+                - button "Подключить" [ref=e257] [cursor=pointer]
+            - generic [ref=e259]:
+              - generic [ref=e260]:
+                - heading "Включить AI помощника" [level=3] [ref=e261]
+                - paragraph [ref=e262]: Использовать AI для автоматических предложений и анализа
+              - button [ref=e263] [cursor=pointer]
+        - generic [ref=e265]:
+          - generic [ref=e266]:
+            - img [ref=e268]
+            - heading "Уведомления" [level=2] [ref=e271]
+          - generic [ref=e272]:
+            - generic [ref=e273]:
+              - generic [ref=e274]:
+                - heading "Включить уведомления" [level=3] [ref=e275]
+                - paragraph [ref=e276]: Показывать уведомления о событиях системы
+              - button [ref=e277] [cursor=pointer]
+            - generic [ref=e279]:
+              - generic [ref=e280]:
+                - heading "Звуковые уведомления" [level=3] [ref=e281]
+                - paragraph [ref=e282]: Воспроизводить звук при получении уведомлений
+              - button [ref=e283] [cursor=pointer]
+            - generic [ref=e285]:
+              - generic [ref=e286]:
+                - heading "Desktop уведомления" [level=3] [ref=e287]
+                - paragraph [ref=e288]: Показывать уведомления в системном трее
+              - button [ref=e289] [cursor=pointer]
+        - generic [ref=e291]:
+          - generic [ref=e292]:
+            - img [ref=e294]
+            - heading "Внешний вид" [level=2] [ref=e300]
+          - generic [ref=e301]:
+            - generic [ref=e302]:
+              - generic [ref=e303]: Тема
+              - combobox [ref=e304]:
+                - option "Светлая" [selected]
+                - option "Темная"
+              - paragraph [ref=e305]: Цветовая схема интерфейса
+            - generic [ref=e306]:
+              - generic [ref=e307]: Язык
+              - combobox [ref=e308]:
+                - option "Русский" [selected]
+                - option "English"
+              - paragraph [ref=e309]: Язык интерфейса
+        - generic [ref=e310]:
+          - heading "Информация о системе" [level=3] [ref=e311]
+          - generic [ref=e312]:
+            - generic [ref=e313]:
+              - generic [ref=e314]: "Версия приложения:"
+              - generic [ref=e315]: 1.0.0
+            - generic [ref=e316]:
+              - generic [ref=e317]: "Последняя синхронизация:"
+              - generic [ref=e318]: Никогда
+            - generic [ref=e319]:
+              - generic [ref=e320]: "Всего задач:"
+              - generic [ref=e321]: "0"
+            - generic [ref=e322]:
+              - generic [ref=e323]: "Выполнено задач:"
+              - generic [ref=e324]: "0"
+```

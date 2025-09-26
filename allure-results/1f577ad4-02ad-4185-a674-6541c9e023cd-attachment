@@ -1,0 +1,29 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - heading "Управление задачами" [level=1] [ref=e3]
+  - generic [ref=e4]:
+    - heading "Добавить задачу" [level=3] [ref=e5]
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - generic [ref=e8]: "Название:"
+        - textbox "Название:" [ref=e9]
+      - generic [ref=e10]:
+        - generic [ref=e11]: "Описание:"
+        - textbox "Описание:" [ref=e12]
+      - generic [ref=e13]:
+        - generic [ref=e14]: "Приоритет:"
+        - combobox "Приоритет:" [ref=e15]:
+          - option "Низкий"
+          - option "Средний" [selected]
+          - option "Высокий"
+      - button "Добавить задачу" [ref=e16] [cursor=pointer]
+  - generic [ref=e18]:
+    - generic [ref=e19]: Тестовая задача
+    - generic [ref=e20]: Описание тестовой задачи
+    - generic [ref=e21]: "Приоритет: high"
+    - generic [ref=e22]: "Создано: 26.09.2025, 11:29:30"
+    - generic [ref=e23]: Завершено
+    - button "Удалить" [ref=e25] [cursor=pointer]
+```

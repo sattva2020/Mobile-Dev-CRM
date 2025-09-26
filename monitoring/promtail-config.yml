@@ -1,0 +1,90 @@
+server:
+  http_listen_port: 9080
+  grpc_listen_port: 0
+
+positions:
+  filename: /tmp/positions.yaml
+
+clients:
+  - url: http://loki:3100/loki/api/v1/push
+
+scrape_configs:
+  - job_name: crm-frontend
+    static_configs:
+      - targets:
+          - localhost
+        labels:
+          job: crm-frontend
+          __path__: /var/log/nginx/access.log
+    pipeline_stages:
+      - json:
+          expressions:
+            timestamp: timestamp
+            level: level
+            message: message
+            service: service
+      - timestamp:
+          source: timestamp
+          format: RFC3339
+      - labels:
+          level:
+          service:
+
+  - job_name: crm-backend
+    static_configs:
+      - targets:
+          - localhost
+        labels:
+          job: crm-backend
+          __path__: /var/log/app/*.log
+    pipeline_stages:
+      - json:
+          expressions:
+            timestamp: timestamp
+            level: level
+            message: message
+            service: service
+            request_id: request_id
+            user_id: user_id
+      - timestamp:
+          source: timestamp
+          format: RFC3339
+      - labels:
+          level:
+          service:
+          request_id:
+          user_id:
+
+  - job_name: postgres
+    static_configs:
+      - targets:
+          - localhost
+        labels:
+          job: postgres
+          __path__: /var/log/postgresql/*.log
+    pipeline_stages:
+      - regex:
+          expression: '^(?P<timestamp>\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}\.\d{3} \w+) \[(?P<process_id>\d+)\] (?P<level>\w+):\s+(?P<message>.*)'
+      - timestamp:
+          source: timestamp
+          format: '2006-01-02 15:04:05.000 MST'
+      - labels:
+          level:
+          process_id:
+
+  - job_name: system
+    static_configs:
+      - targets:
+          - localhost
+        labels:
+          job: system
+          __path__: /var/log/syslog
+    pipeline_stages:
+      - regex:
+          expression: '^(?P<timestamp>\w{3} \d{1,2} \d{2}:\d{2}:\d{2}) (?P<hostname>\S+) (?P<service>\S+): (?P<message>.*)'
+      - timestamp:
+          source: timestamp
+          format: 'Jan 02 15:04:05'
+      - labels:
+          hostname:
+          service:
