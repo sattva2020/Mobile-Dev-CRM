@@ -21,3 +21,12 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# API ключи и тестовые файлы
+final-ai-test.js
+xai-test.js
+real-ai-test.js
+simple-ai-test.js
+test-ai-integration.js
+test-alternative-models.js
+test-python-ai.py
